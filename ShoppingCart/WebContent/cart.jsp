@@ -60,7 +60,7 @@
 				<td><%=goods.getGoodsPrice()%></td>
 				<td><%=goodsNum%></td>
 				<td><a
-					href="handleServlet?goodsId=<%=goods.getGoodsId()%>&status=-1">从购物车中删除</a></td>
+					href="handleServlet?goodsId=<%=goods.getGoodsId()%>&status=-1">删除</a></td>
 			</tr>
 			<%	
 					}
